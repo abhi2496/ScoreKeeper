@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ScoreKeeper</string>
+    <string name="hintTeamA">Name of Team 1</string>
+    <string name="hintTeamB">Name of Team 2</string>
+    <string name="zero">0</string>
+    <string name="slash">/</string>
+    <string name="sixRuns">6 Runs</string>
+    <string name="fourRuns">4 Runs</string>
+    <string name="threeRuns">3 Runs</string>
+    <string name="twoRuns">2 Runs</string>
+    <string name="oneRun">1 Run</string>
+    <string name="extraRun">Extra</string>
+    <string name="wicket">Wicket!</string>
+    <string name="endOfInnings">End of Innings</string>
+    <string name="reset">Reset</string>
+    <string name="allOut"> All Out!</string>
+    <string name="won"> Won!!</string>
+    <string name="tie">It\'s a Tie!!</string>
+</resources>

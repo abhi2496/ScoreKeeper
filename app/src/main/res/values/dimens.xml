@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zerodp">0dp</dimen>
+    <dimen name="one">1</dimen>
+    <dimen name="two">2</dimen>
+    <dimen name="five">5</dimen>
+    <dimen name="largerPadding">24dp</dimen>
+    <dimen name="largePadding">16dp</dimen>
+    <dimen name="stdPadding">8dp</dimen>
+    <dimen name="smallPadding">4dp</dimen>
+    <dimen name="smallest">2dp</dimen>
+    <dimen name="largerText">24sp</dimen>
+    <dimen name="largestText">40sp</dimen>
+</resources>
