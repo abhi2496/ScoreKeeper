@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         displayWicketsForTeamA(wicketsTeamA);
         if (wicketsTeamA == 10) {
             String nameTeamA = etTeamA.getText().toString();
-            mssgs.setText(nameTeamA + R.string.allOut);
+            mssgs.setText(nameTeamA+" All Out!");
             setViewAndChildrenEnabled(teamA, false);
             setViewAndChildrenEnabled(teamB, true);
         }
@@ -163,11 +163,11 @@ public class MainActivity extends AppCompatActivity {
         String nameTeamA = etTeamA.getText().toString();
         String nameTeamB = etTeamB.getText().toString();
         if (runsTeamA < runsTeamB) {
-            mssgs.setText(nameTeamB + R.string.won);
+            mssgs.setText(nameTeamB+" Won!");
         } else if (runsTeamA == runsTeamB) {
             mssgs.setText(R.string.tie);
         } else {
-            mssgs.setText(nameTeamA + R.string.won);
+            mssgs.setText(nameTeamA + " Won!");
         }
         setViewAndChildrenEnabled(teamA, false);
         setViewAndChildrenEnabled(teamB, false);
